@@ -1,0 +1,93 @@
+h1{
+    color: blue;
+}
+
+h2{
+    padding: 8rem;
+    color: chartreuse;
+}
+
+h3{
+    margin: 3em;
+    color: chocolate;
+}
+
+.title{
+    color:blue
+  }
+  
+  #blue-bordered {
+    border: 5px dashed blue;
+}
+
+.box p {
+    color: red;
+}  
+
+article > p {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}
+
+h1 + p {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}   
+
+h1 ~ p {
+    font-weight: bold;
+    background-color:red;
+    color: #fff;
+    padding: .5em;
+}
+
+a:link {
+    color: tomato;
+}
+
+a:visited {
+    color: tomato;
+}
+
+div:hover {
+    color: tomato;
+} 
+
+a:active{
+    color: #0000FF
+}
+
+.box {
+    padding: <padding-top> || <padding-right> || <padding-bottom> || <padding-left>
+  }
+
+  div{
+    height: 150px;
+    width: 90%;
+}
+
+p {
+    border: 10px solid black;
+    margin: 20px;
+  }
+
+  .rounded {
+    border-radius: 15px;
+  }
+
+  .elliptical {
+    border-radius: 50px / 25px;
+  }
+
+  div{
+    height: 150px;
+    width: 90%;
+}
+
+p {
+    display: online;
+  }
